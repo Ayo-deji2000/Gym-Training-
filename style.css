@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(100, 100, 100);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 230px;
+}
+nav h3 {
+    font-size: 52px;
+    color: white;
+    font-family: 'Lalezar', cursive;
+    margin-left: 130px;
+    margin-top: 6px;
+}
+.color {
+    color: orangered;
+}
+nav ul li {
+    list-style-type: none;
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    margin-top: 32px;
+    padding-left: 28px;
+    font-size: 17px;
+    cursor: pointer;
+}
+nav ul li:hover {
+    color: orangered;
+}
+.sign-btn {
+    width: 6%;
+    height: 32px;
+    background-color: orangered;
+    font-size: 17px;
+    color: white;
+    margin-top: 27px;
+    margin-left: 28px ;
+    padding: 4px 8px;
+    font-family: 'Padauk', sans-serif;
+    box-sizing: border-box;
+}
+.landing {
+    width: 100%;
+    height: 590px;
+    text-align: center;
+    background-color: orchid;
+    padding-top: 210px;
+    margin-bottom: 140px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(8, 7, 7, 0.7)), url("images/Screenshot\ \(9\).png");
+   
+}
+.landing h4 {
+    font-family: 'Lalezar', cursive;
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: white;
+}
+.landing h1 {
+    font-family: 'Lalezar', cursive;
+    font-size: 82px;
+    letter-spacing: 7px;
+    color: white;
+    
+}
+.member-btn {
+    width: 10%;
+    height: 30px;
+    padding-top: 8px;
+    box-sizing: border-box;
+    background-color: orangered;
+    color: white;
+    margin: 0px auto;
+    font-family: 'Padauk', sans-serif;
+    font-size: 12px;
+}
+.program {
+    width: 40%;
+    height: 130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.program h3 {
+    font-family: 'Lalezar', cursive;
+    font-size: 30px;
+    padding-bottom: 7px;
+}
+.program p {
+    font-family: 'Padauk', sans-serif;
+    padding-top: 7px;
+}
+.fitness {
+    width: 85%;
+    height: 410px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+.fitness-duo {
+    display: flex;
+    flex-direction: row;
+}
+.fitness-box {
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 40px;
+}
+.fitness-box-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 39px;
+}
+.fitness-text {
+    margin-left: 15px;
+}
+.fitness-text h4 {
+    font-family: 'Padauk', sans-serif;
+    font-size: 20px;
+
+}
+.fitness-text p {
+    font-size: 14px;
+    font-family: 'Padauk', sans-serif;
+}
+.fitness-text h5 {
+    font-size: 14px;
+    font-family: 'Padauk', sans-serif;
+    color: orangered;
+    padding-top: 7px;
+}
+.today {
+    width: 100%;
+    height: 350px;
+    background-color: orchid;
+    margin-top: 120px;
+    text-align: center;
+    margin-bottom: 120px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    background-image: url("images/cta-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.today h2 {
+    font-size: 54px;
+    color: white;
+    font-family: 'Lalezar', cursive;
+}
+.today p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Padauk', sans-serif;
+    padding-bottom: 14px;
+}
+.schedule {
+    width: 85%;
+    height: 460px;
+    /* background-color: violet; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.first-training {
+    width: 30%;
+    height: 420px;
+    /* background-color: tomato; */
+
+}
+.second-training {
+    width: 70%;
+    height: 380px;
+    /* background-color: greenyellow; */
+    margin-left: 27px;
+}
+.box {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    height: 76px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 20px 37px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+}
+.box img {
+    width: 14%;
+    height: 29px;
+   
+}
+.box h4 {
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: 'Padauk', sans-serif;
+}
+.view-btn {
+    width: 80%;
+    height: 46px;
+    background-color: orangered;
+    color: white;
+    margin: 17px auto;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-family: 'Padauk', sans-serif;
+    font-size: 16px;
+}
+.lift {
+    width: 90%;
+    height: 280px;
+    background-color: blue;
+    border-radius: 5px;
+    background-image: url("images/training-image-01.jpg");
+}
+.second-training h4 {
+    font-family: 'Padauk', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.second-training p {
+    font-family: 'Padauk', sans-serif;
+    font-size: 15px;
+}
+.sch-btn {
+    width: 17%;
+    height: 35px;
+    background-color: orangered;
+    font-family: 'Padauk', sans-serif;
+    font-size: 15px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    color: white;
+    margin-top: 9px;
+}   
